@@ -1,0 +1,9 @@
+{
+  "seed": 42,
+  "problems": [
+    {"id": 1, "source_components": [1,1,1], "components_per_target": [3]},
+    {"id": 2, "source_components": [1,1,1,1], "components_per_target": [4]},
+    {"id": 3, "source_components": [2,3,2], "components_per_target": [3]},
+    {"id": 4, "source_components": [2,2,3], "components_per_target": [3,2]}
+  ]
+}
