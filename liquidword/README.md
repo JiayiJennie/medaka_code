@@ -1,6 +1,6 @@
 # LiquidWorld Problem Generator
 
-A problem generator for **LiquidWorld** — a planning domain where an agent must pour liquids between vessels to achieve target mixtures. The generator creates solvable instances with configurable source/target complexity and built-in feasibility validation.
+A problem generator for **LiquidWorld** — a planning domain where an agent must pour liquids between vessels to achieve target mixtures. The generator creates solvable instances with configurable source/target complexity and built-in feasibility validation. The complete data with 4 difficulty levels used in the paper are stored in `data/`.
 
 ## Quick Start
 
@@ -46,9 +46,9 @@ The two key parameters that control problem complexity:
 - **`components_per_target`** — controls target count and complexity. Length = number of targets; each value = how many liquids that target requires.
 
 
-## Validator
+## Solvability Checker
 
-Every generated problem passes through `_validate_solvability()`, which performs three checks:
+Every generated problem passes through `_validate_solvability()` in `liquid_world_generator.py`, which performs three checks:
 
 ### Check 1: Volume Feasibility
 
