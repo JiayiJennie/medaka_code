@@ -80,7 +80,7 @@ python3 -m src.main --provider openai --problem liquidword/data/level2.json --al
 | `--print-prompt` | Print prompt and exit (no API call)                                                                                  |
 
 
-## Generate Problems
+## Generate LiquidWorld Instences
 
 See `[liquidword/README.md](liquidword/README.md)` for details on generating new LiquidWorld problems.
 
