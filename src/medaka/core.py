@@ -146,8 +146,9 @@ class Medaka:
 
     def get_prompt(self, initial_state: str, goal_state: str) -> str:
         """Return the prompt without calling the LLM."""
+        from src.utils.config import Config
         prompt = self.prompt_builder.build_prompt(initial_state, goal_state)
-        if self._is_claude():
+        if Config.is_claude(self.provider):
             prompt += (
                 "\nYour FIRST line of output MUST be 'STEP 1:'. "
                 "Do NOT include any preamble, analysis, or equation solving before STEP 1."
@@ -169,8 +170,9 @@ class Medaka:
         _EMPTY_RESP_RETRIES = 2
         _EMPTY_RESP_BACKOFF = 3.0
 
+        from src.utils.config import Config
         prompt = self.get_prompt(initial_state, goal_state)
-        max_tokens = max_tokens or self._default_max_tokens()
+        max_tokens = max_tokens or Config.get_max_tokens()
         total_usage = {"input": 0, "output": 0, "total": 0, "reasoning": 0}
         empty_retries_left = _EMPTY_RESP_RETRIES
         parse_retries_left = _PARSE_RETRIES
@@ -228,31 +230,6 @@ class Medaka:
             steps.extend(pours)
         return steps
 
-    # ------------------------------------------------------------------
-    # Internal helpers
-    # ------------------------------------------------------------------
-
-    _PROVIDER_MAX_TOKENS = {
-        "anthropic": 40000,
-        "google": 20000,
-        "openrouter": 16000,
-        "dashscope": 8192,
-        "together": 16000,
-        "featherless": 16000,
-    }
-    _DEFAULT_MAX_TOKENS = 16000
-
-    def _default_max_tokens(self) -> int:
-        return self._PROVIDER_MAX_TOKENS.get(self.provider, self._DEFAULT_MAX_TOKENS)
-
-    def _is_claude(self) -> bool:
-        from src.utils.config import Config
-        if self.provider == "anthropic":
-            return True
-        if self.provider == "openrouter" and Config.OPENROUTER_MODEL_NAME:
-            m = Config.OPENROUTER_MODEL_NAME.lower()
-            return "claude" in m or m.startswith("anthropic/")
-        return False
 
 
 def build_prompt(initial_state_str: str, goal_state_str: str) -> str:

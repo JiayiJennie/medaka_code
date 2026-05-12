@@ -44,6 +44,43 @@ class Config:
     FEATHERLESS_MODEL_NAME = os.getenv("FEATHERLESS_MODEL_NAME")
     FEATHERLESS_BASE_URL = os.getenv("FEATHERLESS_BASE_URL", "https://api.featherless.ai/v1")
     
+    MAX_TOKENS = int(os.getenv("MAX_TOKENS", "16000"))
+
+    PROVIDER_MODEL_ATTRS = {
+        "openai": "OPENAI_MODEL_NAME",
+        "anthropic": "ANTHROPIC_MODEL_NAME",
+        "azure_openai": "AZURE_OPENAI_DEPLOYMENT_NAME",
+        "google": "GOOGLE_MODEL_NAME",
+        "dashscope": "DASHSCOPE_MODEL_NAME",
+        "openrouter": "OPENROUTER_MODEL_NAME",
+        "together": "TOGETHER_MODEL_NAME",
+        "featherless": "FEATHERLESS_MODEL_NAME",
+    }
+
+    @classmethod
+    def get_max_tokens(cls) -> int:
+        return cls.MAX_TOKENS
+
+    @classmethod
+    def get_model_display(cls, provider: str) -> str:
+        attr = cls.PROVIDER_MODEL_ATTRS.get(provider)
+        return getattr(cls, attr) if attr else provider
+
+    @classmethod
+    def apply_model_override(cls, provider: str, model: str):
+        attr = cls.PROVIDER_MODEL_ATTRS.get(provider)
+        if attr and model:
+            setattr(cls, attr, model)
+
+    @classmethod
+    def is_claude(cls, provider: str) -> bool:
+        if provider == "anthropic":
+            return True
+        if provider == "openrouter" and cls.OPENROUTER_MODEL_NAME:
+            m = cls.OPENROUTER_MODEL_NAME.lower()
+            return "claude" in m or m.startswith("anthropic/")
+        return False
+
     @classmethod
     def get_available_providers(cls):
         """Returns a list of available LLM providers based on configurations."""

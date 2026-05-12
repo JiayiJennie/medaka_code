@@ -1,10 +1,7 @@
-"""Run MEA planning on LiquidWorld problems.
-
+"""
 Usage:
   python3 -m src.main --problem liquidword/data/level2.json --id 1
-  python3 -m src.main --problem liquidword/data/level2.json --all
   python3 -m src.main --problem liquidword/data/level2.json --all --num-trials 3
-  python3 -m src.main --problem liquidword/data/level2.json --id 1 --print-prompt
 """
 import argparse
 import json
@@ -17,31 +14,7 @@ from src.medaka.core import Medaka
 from src.utils.config import Config
 
 
-_SUPPORTED_PROVIDERS = {
-    "openai", "anthropic", "azure_openai", "google",
-    "dashscope", "openrouter", "together", "featherless",
-}
-_PROVIDER_MODEL_CONFIG_ATTRS = {
-    "openai": "OPENAI_MODEL_NAME",
-    "anthropic": "ANTHROPIC_MODEL_NAME",
-    "azure_openai": "AZURE_OPENAI_DEPLOYMENT_NAME",
-    "google": "GOOGLE_MODEL_NAME",
-    "dashscope": "DASHSCOPE_MODEL_NAME",
-    "openrouter": "OPENROUTER_MODEL_NAME",
-    "together": "TOGETHER_MODEL_NAME",
-    "featherless": "FEATHERLESS_MODEL_NAME",
-}
-
-
-def _get_model_display(provider):
-    attr = _PROVIDER_MODEL_CONFIG_ATTRS.get(provider)
-    return getattr(Config, attr) if attr else provider
-
-
-def _apply_model_override(provider, model):
-    attr = _PROVIDER_MODEL_CONFIG_ATTRS.get(provider)
-    if attr and model:
-        setattr(Config, attr, model)
+_SUPPORTED_PROVIDERS = set(Config.PROVIDER_MODEL_ATTRS.keys())
 
 
 def _mean_std(values):
@@ -94,8 +67,8 @@ def main():
         parser.error("--num-trials must be >= 1")
         return
 
-    _apply_model_override(args.provider, args.model)
-    model_display = _get_model_display(args.provider)
+    Config.apply_model_override(args.provider, args.model)
+    model_display = Config.get_model_display(args.provider)
     reasoning_display = args.reasoning_effort or "default"
     thinking_display = {True: "on", False: "off", None: "auto"}[args.enable_thinking]
     print(

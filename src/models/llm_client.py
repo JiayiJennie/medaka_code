@@ -1,4 +1,7 @@
-"""LLM client implementations for different providers."""
+"""LLM client implementations for different providers.
+
+Adapted from the AoT+ project (https://github.com/llmsresearch/aot-plus).
+"""
 from abc import ABC, abstractmethod
 import os
 import random

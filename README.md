@@ -11,7 +11,7 @@ medaka_code/
 │   ├── domain/
 │   │   └── liquid_world.py    # LiquidWorld state & action definitions
 │   ├── data/                  # Benchmark datasets (level1–4)
-│   ├── liquid_world_generator.py
+│   ├── liquid_world_generator.py  # main entry for liquidworld problem generator
 │   ├── config.json            # Generator config example
 │   └── README.md              # Generator documentation
 ├── src/                       # Planning & evaluation pipeline
@@ -55,7 +55,7 @@ Run from the project root (`medaka_code/`):
 
 ```bash
 # Solve a single problem
-python3 -m src.main --provider openai --problem liquidword/data/level2.json --id 1  
+python3 -m src.main --provider openai  --problem liquidword/data/level2.json --id 1  
 
 # Solve all problems in a dataset
 python3 -m src.main --provider openai --problem liquidword/data/level2.json --all --num-trials 3
@@ -66,7 +66,9 @@ python3 -m src.main --provider openai --problem liquidword/data/level2.json --al
 
 | Flag             | Description                                                                                                          |
 | ---------------- | -------------------------------------------------------------------------------------------------------------------- |
-| `--provider`     | LLM provider (`openai`, `anthropic`, `google`, `azure_openai`, `dashscope`, `openrouter`, `together`, `featherless`) |
+| `--provider`     | LLM provider (`openai`, `anthropic`, `google`, `azure_openai`, `dashscope`, 
+`openrouter`, `together`, `featherless`) |
+| `--model`        | Override the model name configured in `.env`                                                                         |
 | `--problem`      | Path to problem JSON file                                                                                            |
 | `--id`           | Problem ID(s) to solve (repeatable)                                                                                  |
 | `--all`          | Solve all problems in the file                                                                                       |
