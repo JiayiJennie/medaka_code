@@ -1,0 +1,2330 @@
+[
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 45.0% L2, 55.0% L3; V2 (capacity 999L): 10 L, 45.0% L1, 55.0% L3; V3 (capacity 999L): empty",
+    "goal_state_str": "V3: 2 L, 25.84% L1, 19.16% L2, 55.0% L3",
+    "containers": {
+      "V1": {
+        "L2": 4.5,
+        "L3": 5.5
+      },
+      "V2": {
+        "L1": 4.5,
+        "L3": 5.5
+      },
+      "V3": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0
+    },
+    "goal_containers": {
+      "V3": {
+        "L1": 0.5168,
+        "L2": 0.3832,
+        "L3": 1.1
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 3,
+    "n_targets": 1,
+    "min_steps": 2,
+    "id": 1,
+    "components_per_target": [
+      3
+    ],
+    "source_config": [
+      2,
+      2
+    ],
+    "pilot_group": "2src-22_1t3"
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 15.0% L1, 20.0% L2, 65.0% L3; V2 (capacity 999L): 10 L, 15.0% L1, 15.0% L2, 70.0% L3; V3 (capacity 999L): empty",
+    "goal_state_str": "V3: 5 L, 15.0% L1, 15.71% L2, 69.29% L3",
+    "containers": {
+      "V1": {
+        "L3": 6.5,
+        "L1": 1.5,
+        "L2": 2.0
+      },
+      "V2": {
+        "L3": 7.0,
+        "L1": 1.5,
+        "L2": 1.5
+      },
+      "V3": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0
+    },
+    "goal_containers": {
+      "V3": {
+        "L1": 0.75,
+        "L2": 0.7855000000000001,
+        "L3": 3.4645
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 3,
+    "n_targets": 1,
+    "min_steps": 2,
+    "id": 2,
+    "components_per_target": [
+      3
+    ],
+    "source_config": [
+      3,
+      3
+    ],
+    "pilot_group": "2src-33_1t3"
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 55.0% L1, 30.0% L2, 15.0% L4; V2 (capacity 999L): 10 L, 50.0% L1, 20.0% L2, 30.0% L3; V3 (capacity 999L): empty",
+    "goal_state_str": "V3: 2 L, 51.52% L1, 23.04% L2, 20.88% L3, 4.56% L4",
+    "containers": {
+      "V1": {
+        "L1": 5.5,
+        "L2": 3.0,
+        "L4": 1.5
+      },
+      "V2": {
+        "L1": 5.0,
+        "L2": 2.0,
+        "L3": 3.0
+      },
+      "V3": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0
+    },
+    "goal_containers": {
+      "V3": {
+        "L1": 1.0304,
+        "L2": 0.4608,
+        "L3": 0.41759999999999997,
+        "L4": 0.09119999999999999
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 4,
+    "n_targets": 1,
+    "min_steps": 2,
+    "id": 3,
+    "components_per_target": [
+      4
+    ],
+    "source_config": [
+      3,
+      3
+    ],
+    "pilot_group": "2src-33_1t4"
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 50.0% L1, 50.0% L3; V2 (capacity 999L): 10 L, 35.0% L1, 65.0% L2; V3 (capacity 999L): 10 L, 55.0% L1, 45.0% L3; V4 (capacity 999L): empty",
+    "goal_state_str": "V4: 3.00 L, 45.81% L1, 28.08% L2, 26.11% L3",
+    "containers": {
+      "V1": {
+        "L3": 5.0,
+        "L1": 5.0
+      },
+      "V2": {
+        "L2": 6.5,
+        "L1": 3.5
+      },
+      "V3": {
+        "L1": 5.5,
+        "L3": 4.5
+      },
+      "V4": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0
+    },
+    "goal_containers": {
+      "V4": {
+        "L1": 1.3743,
+        "L2": 0.8424,
+        "L3": 0.7833
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 3,
+    "n_targets": 1,
+    "min_steps": 3,
+    "id": 4,
+    "components_per_target": [
+      3
+    ],
+    "source_config": [
+      2,
+      2,
+      2
+    ],
+    "pilot_group": "3src-222_1t3"
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 35.0% L1, 65.0% L3; V2 (capacity 999L): 10 L, 40.0% L1, 60.0% L2; V3 (capacity 999L): 10 L, 60.0% L1, 40.0% L3; V4 (capacity 999L): empty",
+    "goal_state_str": "V4: 4 L, 47.21% L1, 22.53% L2, 30.26% L3",
+    "containers": {
+      "V1": {
+        "L3": 6.5,
+        "L1": 3.5
+      },
+      "V2": {
+        "L2": 6.0,
+        "L1": 4.0
+      },
+      "V3": {
+        "L3": 4.0,
+        "L1": 6.0
+      },
+      "V4": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0
+    },
+    "goal_containers": {
+      "V4": {
+        "L1": 1.8884,
+        "L2": 0.9012,
+        "L3": 1.2104000000000001
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 3,
+    "n_targets": 1,
+    "min_steps": 3,
+    "id": 5,
+    "components_per_target": [
+      3
+    ],
+    "source_config": [
+      2,
+      2,
+      2
+    ],
+    "pilot_group": "3src-222_1t3"
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 35.0% L1, 65.0% L2; V2 (capacity 999L): 10 L, 50.0% L2, 50.0% L4; V3 (capacity 999L): 10 L, 55.0% L3, 45.0% L4; V4 (capacity 999L): empty",
+    "goal_state_str": "V4: 5 L, 6.37% L1, 45.43% L2, 8.03% L3, 40.17% L4",
+    "containers": {
+      "V1": {
+        "L2": 6.5,
+        "L1": 3.5
+      },
+      "V2": {
+        "L2": 5.0,
+        "L4": 5.0
+      },
+      "V3": {
+        "L4": 4.5,
+        "L3": 5.5
+      },
+      "V4": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0
+    },
+    "goal_containers": {
+      "V4": {
+        "L1": 0.3185,
+        "L2": 2.2715,
+        "L3": 0.40149999999999997,
+        "L4": 2.0085
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 4,
+    "n_targets": 1,
+    "min_steps": 3,
+    "id": 6,
+    "components_per_target": [
+      4
+    ],
+    "source_config": [
+      2,
+      2,
+      2
+    ],
+    "pilot_group": "3src-222_1t4"
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 55.0% L1, 45.0% L2; V2 (capacity 999L): 10 L, 55.0% L3, 45.0% L4; V3 (capacity 999L): 10 L, 15.0% L1, 40.0% L3, 45.0% L4; V4 (capacity 999L): empty",
+    "goal_state_str": "V4: 4 L, 21.65% L1, 12.22% L2, 33.35% L3, 32.78% L4",
+    "containers": {
+      "V1": {
+        "L2": 4.5,
+        "L1": 5.5
+      },
+      "V2": {
+        "L4": 4.5,
+        "L3": 5.5
+      },
+      "V3": {
+        "L3": 4.0,
+        "L1": 1.5,
+        "L4": 4.5
+      },
+      "V4": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0
+    },
+    "goal_containers": {
+      "V4": {
+        "L1": 0.866,
+        "L2": 0.4888,
+        "L3": 1.334,
+        "L4": 1.3112000000000001
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 4,
+    "n_targets": 1,
+    "min_steps": 3,
+    "id": 7,
+    "components_per_target": [
+      4
+    ],
+    "source_config": [
+      2,
+      2,
+      3
+    ],
+    "pilot_group": "3src-223_1t4"
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 70.0% L1, 30.0% L4; V2 (capacity 999L): 10 L, 35.0% L1, 65.0% L4; V3 (capacity 999L): 10 L, 40.0% L1, 30.0% L2, 30.0% L3; V4 (capacity 999L): empty",
+    "goal_state_str": "V4: 5 L, 51.53% L1, 11.73% L2, 11.73% L3, 25.01% L4",
+    "containers": {
+      "V1": {
+        "L1": 7.0,
+        "L4": 3.0
+      },
+      "V2": {
+        "L4": 6.5,
+        "L1": 3.5
+      },
+      "V3": {
+        "L1": 4.0,
+        "L2": 3.0,
+        "L3": 3.0
+      },
+      "V4": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0
+    },
+    "goal_containers": {
+      "V4": {
+        "L1": 2.5765,
+        "L2": 0.5865,
+        "L3": 0.5865,
+        "L4": 1.2505
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 4,
+    "n_targets": 1,
+    "min_steps": 3,
+    "id": 8,
+    "components_per_target": [
+      4
+    ],
+    "source_config": [
+      2,
+      2,
+      3
+    ],
+    "pilot_group": "3src-223_1t4"
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 40.0% L4, 60.0% L5; V2 (capacity 999L): 10 L, 60.0% L2, 40.0% L4; V3 (capacity 999L): 10 L, 20.0% L1, 25.0% L3, 55.0% L5; V4 (capacity 999L): empty",
+    "goal_state_str": "V4: 3 L, 4.92% L1, 26.28% L2, 6.15% L3, 30.16% L4, 32.49% L5",
+    "containers": {
+      "V1": {
+        "L4": 4.0,
+        "L5": 6.0
+      },
+      "V2": {
+        "L2": 6.0,
+        "L4": 4.0
+      },
+      "V3": {
+        "L5": 5.5,
+        "L1": 2.0,
+        "L3": 2.5
+      },
+      "V4": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0
+    },
+    "goal_containers": {
+      "V4": {
+        "L1": 0.1476,
+        "L2": 0.7884000000000001,
+        "L3": 0.18450000000000003,
+        "L4": 0.9047999999999999,
+        "L5": 0.9747000000000001
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 5,
+    "n_targets": 1,
+    "min_steps": 3,
+    "id": 9,
+    "components_per_target": [
+      5
+    ],
+    "source_config": [
+      2,
+      2,
+      3
+    ],
+    "pilot_group": "3src-223_1t5"
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 50.0% L3, 50.0% L5; V2 (capacity 999L): 10 L, 35.0% L1, 65.0% L3; V3 (capacity 999L): 10 L, 70.0% L2, 15.0% L3, 15.0% L4; V4 (capacity 999L): empty",
+    "goal_state_str": "V4: 5 L, 10.57% L1, 25.48% L2, 41.79% L3, 5.46% L4, 16.7% L5",
+    "containers": {
+      "V1": {
+        "L5": 5.0,
+        "L3": 5.0
+      },
+      "V2": {
+        "L3": 6.5,
+        "L1": 3.5
+      },
+      "V3": {
+        "L2": 7.0,
+        "L3": 1.5,
+        "L4": 1.5
+      },
+      "V4": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0
+    },
+    "goal_containers": {
+      "V4": {
+        "L1": 0.5285,
+        "L2": 1.274,
+        "L3": 2.0895,
+        "L4": 0.273,
+        "L5": 0.835
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 5,
+    "n_targets": 1,
+    "min_steps": 3,
+    "id": 10,
+    "components_per_target": [
+      5
+    ],
+    "source_config": [
+      2,
+      2,
+      3
+    ],
+    "pilot_group": "3src-223_1t5"
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 50.0% L1, 50.0% L4; V2 (capacity 999L): 10 L, 15.0% L2, 65.0% L3, 20.0% L4; V3 (capacity 999L): 10 L, 35.0% L1, 25.0% L2, 40.0% L3; V4 (capacity 999L): empty",
+    "goal_state_str": "V4: 4 L, 32.18% L1, 13.41% L2, 31.23% L3, 23.18% L4",
+    "containers": {
+      "V1": {
+        "L4": 5.0,
+        "L1": 5.0
+      },
+      "V2": {
+        "L3": 6.5,
+        "L2": 1.5,
+        "L4": 2.0
+      },
+      "V3": {
+        "L3": 4.0,
+        "L1": 3.5,
+        "L2": 2.5
+      },
+      "V4": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0
+    },
+    "goal_containers": {
+      "V4": {
+        "L1": 1.2872,
+        "L2": 0.5364,
+        "L3": 1.2492,
+        "L4": 0.9272
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 4,
+    "n_targets": 1,
+    "min_steps": 3,
+    "id": 11,
+    "components_per_target": [
+      4
+    ],
+    "source_config": [
+      2,
+      3,
+      3
+    ],
+    "pilot_group": "3src-233_1t4"
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 50.0% L2, 50.0% L4; V2 (capacity 999L): 10 L, 25.0% L1, 40.0% L3, 35.0% L4; V3 (capacity 999L): 10 L, 10.0% L1, 70.0% L2, 20.0% L3; V4 (capacity 999L): empty",
+    "goal_state_str": "V4: 3 L, 10.49% L1, 41.38% L2, 18.02% L3, 30.11% L4",
+    "containers": {
+      "V1": {
+        "L2": 5.0,
+        "L4": 5.0
+      },
+      "V2": {
+        "L3": 4.0,
+        "L1": 2.5,
+        "L4": 3.5
+      },
+      "V3": {
+        "L2": 7.0,
+        "L1": 1.0,
+        "L3": 2.0
+      },
+      "V4": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0
+    },
+    "goal_containers": {
+      "V4": {
+        "L1": 0.31470000000000004,
+        "L2": 1.2414,
+        "L3": 0.5406,
+        "L4": 0.9033
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 4,
+    "n_targets": 1,
+    "min_steps": 3,
+    "id": 12,
+    "components_per_target": [
+      4
+    ],
+    "source_config": [
+      2,
+      3,
+      3
+    ],
+    "pilot_group": "3src-233_1t4"
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 35.0% L1, 65.0% L2; V2 (capacity 999L): 10 L, 70.0% L3, 15.0% L4, 15.0% L5; V3 (capacity 999L): 10 L, 35.0% L1, 15.0% L2, 50.0% L3; V4 (capacity 999L): empty",
+    "goal_state_str": "V4: 5.00 L, 26.67% L1, 23.61% L2, 42.58% L3, 3.57% L4, 3.57% L5",
+    "containers": {
+      "V1": {
+        "L2": 6.5,
+        "L1": 3.5
+      },
+      "V2": {
+        "L3": 7.0,
+        "L4": 1.5,
+        "L5": 1.5
+      },
+      "V3": {
+        "L3": 5.0,
+        "L1": 3.5,
+        "L2": 1.5
+      },
+      "V4": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0
+    },
+    "goal_containers": {
+      "V4": {
+        "L1": 1.3335,
+        "L2": 1.1805,
+        "L3": 2.1289999999999996,
+        "L4": 0.1785,
+        "L5": 0.1785
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 5,
+    "n_targets": 1,
+    "min_steps": 3,
+    "id": 13,
+    "components_per_target": [
+      5
+    ],
+    "source_config": [
+      2,
+      3,
+      3
+    ],
+    "pilot_group": "3src-233_1t5"
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 55.0% L2, 45.0% L3; V2 (capacity 999L): 10 L, 25.0% L1, 30.0% L3, 45.0% L5; V3 (capacity 999L): 10 L, 50.0% L1, 20.0% L4, 30.0% L5; V4 (capacity 999L): empty",
+    "goal_state_str": "V4: 4 L, 36.75% L1, 7.15% L2, 13.95% L3, 12.0% L4, 30.15% L5",
+    "containers": {
+      "V1": {
+        "L2": 5.5,
+        "L3": 4.5
+      },
+      "V2": {
+        "L5": 4.5,
+        "L1": 2.5,
+        "L3": 3.0
+      },
+      "V3": {
+        "L1": 5.0,
+        "L4": 2.0,
+        "L5": 3.0
+      },
+      "V4": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0
+    },
+    "goal_containers": {
+      "V4": {
+        "L1": 1.47,
+        "L2": 0.28600000000000003,
+        "L3": 0.5579999999999999,
+        "L4": 0.48,
+        "L5": 1.206
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 5,
+    "n_targets": 1,
+    "min_steps": 3,
+    "id": 14,
+    "components_per_target": [
+      5
+    ],
+    "source_config": [
+      2,
+      3,
+      3
+    ],
+    "pilot_group": "3src-233_1t5"
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 25.0% L1, 50.0% L3, 25.0% L4; V2 (capacity 999L): 10 L, 55.0% L1, 35.0% L2, 10.0% L3; V3 (capacity 999L): 10 L, 65.0% L1, 15.0% L2, 20.0% L3; V4 (capacity 999L): empty",
+    "goal_state_str": "V4: 4.00 L, 44.95% L1, 10.26% L2, 32.99% L3, 11.8% L4",
+    "containers": {
+      "V1": {
+        "L3": 5.0,
+        "L1": 2.5,
+        "L4": 2.5
+      },
+      "V2": {
+        "L1": 5.5,
+        "L2": 3.5,
+        "L3": 1.0
+      },
+      "V3": {
+        "L1": 6.5,
+        "L2": 1.5,
+        "L3": 2.0
+      },
+      "V4": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0
+    },
+    "goal_containers": {
+      "V4": {
+        "L1": 1.798,
+        "L2": 0.4104,
+        "L3": 1.3196,
+        "L4": 0.47200000000000003
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 4,
+    "n_targets": 1,
+    "min_steps": 3,
+    "id": 15,
+    "components_per_target": [
+      4
+    ],
+    "source_config": [
+      3,
+      3,
+      3
+    ],
+    "pilot_group": "3src-333_1t4"
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 45.0% L2, 25.0% L3, 30.0% L4; V2 (capacity 999L): 10 L, 45.0% L1, 40.0% L2, 15.0% L4; V3 (capacity 999L): 10 L, 20.0% L1, 10.0% L3, 70.0% L4; V4 (capacity 999L): empty",
+    "goal_state_str": "V4: 3 L, 15.54% L1, 23.29% L2, 14.55% L3, 46.62% L4",
+    "containers": {
+      "V1": {
+        "L2": 4.5,
+        "L3": 2.5,
+        "L4": 3.0
+      },
+      "V2": {
+        "L1": 4.5,
+        "L2": 4.0,
+        "L4": 1.5
+      },
+      "V3": {
+        "L4": 7.0,
+        "L1": 2.0,
+        "L3": 1.0
+      },
+      "V4": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0
+    },
+    "goal_containers": {
+      "V4": {
+        "L1": 0.46619999999999995,
+        "L2": 0.6987,
+        "L3": 0.43650000000000005,
+        "L4": 1.3985999999999998
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 4,
+    "n_targets": 1,
+    "min_steps": 3,
+    "id": 16,
+    "components_per_target": [
+      4
+    ],
+    "source_config": [
+      3,
+      3,
+      3
+    ],
+    "pilot_group": "3src-333_1t4"
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 60.0% L2, 20.0% L4, 20.0% L5; V2 (capacity 999L): 10 L, 70.0% L1, 20.0% L2, 10.0% L3; V3 (capacity 999L): 10 L, 25.0% L2, 55.0% L4, 20.0% L5; V4 (capacity 999L): empty",
+    "goal_state_str": "V4: 5 L, 44.1% L1, 29.28% L2, 6.3% L3, 12.92% L4, 7.4% L5",
+    "containers": {
+      "V1": {
+        "L2": 6.0,
+        "L4": 2.0,
+        "L5": 2.0
+      },
+      "V2": {
+        "L1": 7.0,
+        "L2": 2.0,
+        "L3": 1.0
+      },
+      "V3": {
+        "L4": 5.5,
+        "L2": 2.5,
+        "L5": 2.0
+      },
+      "V4": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0
+    },
+    "goal_containers": {
+      "V4": {
+        "L1": 2.205,
+        "L2": 1.464,
+        "L3": 0.315,
+        "L4": 0.646,
+        "L5": 0.37000000000000005
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 5,
+    "n_targets": 1,
+    "min_steps": 3,
+    "id": 17,
+    "components_per_target": [
+      5
+    ],
+    "source_config": [
+      3,
+      3,
+      3
+    ],
+    "pilot_group": "3src-333_1t5"
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 20.0% L1, 60.0% L2, 20.0% L3; V2 (capacity 999L): 10 L, 15.0% L1, 15.0% L3, 70.0% L5; V3 (capacity 999L): 10 L, 50.0% L1, 20.0% L4, 30.0% L5; V4 (capacity 999L): empty",
+    "goal_state_str": "V4: 3 L, 24.91% L1, 30.72% L2, 14.41% L3, 4.2% L4, 25.76% L5",
+    "containers": {
+      "V1": {
+        "L2": 6.0,
+        "L1": 2.0,
+        "L3": 2.0
+      },
+      "V2": {
+        "L5": 7.0,
+        "L1": 1.5,
+        "L3": 1.5
+      },
+      "V3": {
+        "L1": 5.0,
+        "L4": 2.0,
+        "L5": 3.0
+      },
+      "V4": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0
+    },
+    "goal_containers": {
+      "V4": {
+        "L1": 0.7473,
+        "L2": 0.9216,
+        "L3": 0.4323,
+        "L4": 0.126,
+        "L5": 0.7727999999999999
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 5,
+    "n_targets": 1,
+    "min_steps": 3,
+    "id": 18,
+    "components_per_target": [
+      5
+    ],
+    "source_config": [
+      3,
+      3,
+      3
+    ],
+    "pilot_group": "3src-333_1t5"
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 30.0% L3, 30.0% L5, 40.0% L6; V2 (capacity 999L): 10 L, 15.0% L1, 20.0% L2, 65.0% L4; V3 (capacity 999L): 10 L, 20.0% L1, 65.0% L2, 15.0% L4; V4 (capacity 999L): empty; V5 (capacity 999L): empty",
+    "goal_state_str": "V4: 5 L, 19.31% L1, 58.79% L2, 21.9% L4; V5: 2 L, 30.0% L3, 30.0% L5, 40.0% L6",
+    "containers": {
+      "V1": {
+        "L6": 4.0,
+        "L3": 3.0,
+        "L5": 3.0
+      },
+      "V2": {
+        "L4": 6.5,
+        "L1": 1.5,
+        "L2": 2.0
+      },
+      "V3": {
+        "L2": 6.5,
+        "L1": 2.0,
+        "L4": 1.5
+      },
+      "V4": {},
+      "V5": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0,
+      "V5": 999.0
+    },
+    "goal_containers": {
+      "V4": {
+        "L1": 0.9655,
+        "L2": 2.9395,
+        "L4": 1.0949999999999998
+      },
+      "V5": {
+        "L3": 0.6,
+        "L5": 0.6,
+        "L6": 0.8
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 6,
+    "n_targets": 2,
+    "min_steps": 3,
+    "id": 19,
+    "components_per_target": [
+      3,
+      3
+    ],
+    "source_config": [
+      3,
+      3,
+      3
+    ],
+    "pilot_group": "3src-333_2t33"
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 65.0% L2, 15.0% L3, 20.0% L5; V2 (capacity 999L): 10 L, 15.0% L1, 60.0% L4, 25.0% L6; V3 (capacity 999L): 10 L, 20.0% L2, 60.0% L3, 20.0% L5; V4 (capacity 999L): empty; V5 (capacity 999L): empty",
+    "goal_state_str": "V4: 2 L, 29.81% L2, 50.19% L3, 20.0% L5; V5: 4 L, 15.0% L1, 60.0% L4, 25.0% L6",
+    "containers": {
+      "V1": {
+        "L2": 6.5,
+        "L3": 1.5,
+        "L5": 2.0
+      },
+      "V2": {
+        "L4": 6.0,
+        "L1": 1.5,
+        "L6": 2.5
+      },
+      "V3": {
+        "L3": 6.0,
+        "L2": 2.0,
+        "L5": 2.0
+      },
+      "V4": {},
+      "V5": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0,
+      "V5": 999.0
+    },
+    "goal_containers": {
+      "V4": {
+        "L2": 0.5962,
+        "L3": 1.0038,
+        "L5": 0.4
+      },
+      "V5": {
+        "L1": 0.6,
+        "L4": 2.4,
+        "L6": 1.0
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 6,
+    "n_targets": 2,
+    "min_steps": 3,
+    "id": 20,
+    "components_per_target": [
+      3,
+      3
+    ],
+    "source_config": [
+      3,
+      3,
+      3
+    ],
+    "pilot_group": "3src-333_2t33"
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 40.0% L1, 60.0% L3; V2 (capacity 999L): 10 L, 50.0% L1, 50.0% L3; V3 (capacity 999L): 10 L, 60.0% L1, 40.0% L2; V4 (capacity 999L): 10 L, 40.0% L3, 60.0% L4; V5 (capacity 999L): empty",
+    "goal_state_str": "V5: 5 L, 39.51% L1, 6.45% L2, 46.03% L3, 8.01% L4",
+    "containers": {
+      "V1": {
+        "L3": 6.0,
+        "L1": 4.0
+      },
+      "V2": {
+        "L3": 5.0,
+        "L1": 5.0
+      },
+      "V3": {
+        "L2": 4.0,
+        "L1": 6.0
+      },
+      "V4": {
+        "L4": 6.0,
+        "L3": 4.0
+      },
+      "V5": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0,
+      "V5": 999.0
+    },
+    "goal_containers": {
+      "V5": {
+        "L1": 1.9755,
+        "L2": 0.3225,
+        "L3": 2.3015,
+        "L4": 0.4005
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 4,
+    "n_sources": 4,
+    "n_targets": 1,
+    "id": 21
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 15.0% L1, 70.0% L2, 15.0% L3; V2 (capacity 999L): 10 L, 50.0% L2, 50.0% L3; V3 (capacity 999L): 10 L, 60.0% L1, 40.0% L4; V4 (capacity 999L): 10 L, 65.0% L1, 25.0% L2, 10.0% L3; V5 (capacity 999L): empty",
+    "goal_state_str": "V5: 4 L, 36.99% L1, 34.68% L2, 12.03% L3, 16.3% L4",
+    "containers": {
+      "V1": {
+        "L2": 7.0,
+        "L1": 1.5,
+        "L3": 1.5
+      },
+      "V2": {
+        "L2": 5.0,
+        "L3": 5.0
+      },
+      "V3": {
+        "L4": 4.0,
+        "L1": 6.0
+      },
+      "V4": {
+        "L1": 6.5,
+        "L2": 2.5,
+        "L3": 1.0
+      },
+      "V5": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0,
+      "V5": 999.0
+    },
+    "goal_containers": {
+      "V5": {
+        "L1": 1.4796,
+        "L2": 1.3872,
+        "L3": 0.48119999999999996,
+        "L4": 0.652
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 4,
+    "n_sources": 4,
+    "n_targets": 1,
+    "id": 22
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 55.0% L2, 45.0% L3; V2 (capacity 999L): 10 L, 50.0% L1, 50.0% L2; V3 (capacity 999L): 10 L, 40.0% L2, 60.0% L3; V4 (capacity 999L): 10 L, 40.0% L1, 60.0% L2; V5 (capacity 999L): empty; V6 (capacity 999L): empty",
+    "goal_state_str": "V5: 5 L, 47.66% L2, 52.34% L3; V6: 2 L, 45.42% L1, 54.58% L2",
+    "containers": {
+      "V1": {
+        "L3": 4.5,
+        "L2": 5.5
+      },
+      "V2": {
+        "L2": 5.0,
+        "L1": 5.0
+      },
+      "V3": {
+        "L2": 4.0,
+        "L3": 6.0
+      },
+      "V4": {
+        "L2": 6.0,
+        "L1": 4.0
+      },
+      "V5": {},
+      "V6": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0,
+      "V5": 999.0,
+      "V6": 999.0
+    },
+    "goal_containers": {
+      "V5": {
+        "L2": 2.383,
+        "L3": 2.6170000000000004
+      },
+      "V6": {
+        "L1": 0.9084,
+        "L2": 1.0916
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 4,
+    "n_sources": 4,
+    "n_targets": 2,
+    "id": 23
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 45.0% L1, 55.0% L2; V2 (capacity 999L): 10 L, 50.0% L2, 50.0% L4; V3 (capacity 999L): 10 L, 45.0% L1, 55.0% L5; V4 (capacity 999L): 10 L, 45.0% L2, 55.0% L3; V5 (capacity 999L): 10 L, 55.0% L3, 45.0% L4; V6 (capacity 999L): empty",
+    "goal_state_str": "V6: 4 L, 11.73% L1, 25.97% L2, 28.54% L3, 23.55% L4, 10.21% L5",
+    "containers": {
+      "V1": {
+        "L1": 4.5,
+        "L2": 5.5
+      },
+      "V2": {
+        "L4": 5.0,
+        "L2": 5.0
+      },
+      "V3": {
+        "L1": 4.5,
+        "L5": 5.5
+      },
+      "V4": {
+        "L2": 4.5,
+        "L3": 5.5
+      },
+      "V5": {
+        "L3": 5.5,
+        "L4": 4.5
+      },
+      "V6": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0,
+      "V5": 999.0,
+      "V6": 999.0
+    },
+    "goal_containers": {
+      "V6": {
+        "L1": 0.4692,
+        "L2": 1.0388,
+        "L3": 1.1416,
+        "L4": 0.9420000000000001,
+        "L5": 0.40840000000000004
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 5,
+    "n_sources": 5,
+    "n_targets": 1,
+    "id": 24
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 30.0% L1, 40.0% L2, 30.0% L4; V2 (capacity 999L): 10 L, 45.0% L1, 55.0% L3; V3 (capacity 999L): 10 L, 50.0% L1, 50.0% L4; V4 (capacity 999L): 10 L, 30.0% L2, 45.0% L4, 25.0% L5; V5 (capacity 999L): 10 L, 55.0% L1, 45.0% L5; V6 (capacity 999L): empty",
+    "goal_state_str": "V6: 4.00 L, 32.29% L1, 14.55% L2, 15.54% L3, 19.61% L4, 18.01% L5",
+    "containers": {
+      "V1": {
+        "L2": 4.0,
+        "L1": 3.0,
+        "L4": 3.0
+      },
+      "V2": {
+        "L1": 4.5,
+        "L3": 5.5
+      },
+      "V3": {
+        "L4": 5.0,
+        "L1": 5.0
+      },
+      "V4": {
+        "L4": 4.5,
+        "L2": 3.0,
+        "L5": 2.5
+      },
+      "V5": {
+        "L5": 4.5,
+        "L1": 5.5
+      },
+      "V6": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0,
+      "V5": 999.0,
+      "V6": 999.0
+    },
+    "goal_containers": {
+      "V6": {
+        "L1": 1.2915999999999999,
+        "L2": 0.5820000000000001,
+        "L3": 0.6215999999999999,
+        "L4": 0.7844,
+        "L5": 0.7204
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 5,
+    "n_sources": 5,
+    "n_targets": 1,
+    "id": 25
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 45.0% L3, 55.0% L4; V2 (capacity 999L): 10 L, 50.0% L4, 50.0% L5; V3 (capacity 999L): 10 L, 35.0% L3, 20.0% L4, 45.0% L5; V4 (capacity 999L): 10 L, 50.0% L3, 50.0% L5; V5 (capacity 999L): 10 L, 40.0% L3, 60.0% L4; V6 (capacity 999L): empty; V7 (capacity 999L): empty",
+    "goal_state_str": "V6: 2 L, 29.84% L3, 37.47% L4, 32.69% L5; V7: 2 L, 42.96% L3, 57.04% L4",
+    "containers": {
+      "V1": {
+        "L3": 4.5,
+        "L4": 5.5
+      },
+      "V2": {
+        "L5": 5.0,
+        "L4": 5.0
+      },
+      "V3": {
+        "L5": 4.5,
+        "L3": 3.5,
+        "L4": 2.0
+      },
+      "V4": {
+        "L5": 5.0,
+        "L3": 5.0
+      },
+      "V5": {
+        "L4": 6.0,
+        "L3": 4.0
+      },
+      "V6": {},
+      "V7": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0,
+      "V5": 999.0,
+      "V6": 999.0,
+      "V7": 999.0
+    },
+    "goal_containers": {
+      "V6": {
+        "L3": 0.5968,
+        "L4": 0.7494,
+        "L5": 0.6537999999999999
+      },
+      "V7": {
+        "L3": 0.8592,
+        "L4": 1.1408
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 5,
+    "n_sources": 5,
+    "n_targets": 2,
+    "id": 26
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 25.0% L2, 25.0% L4, 50.0% L5; V2 (capacity 999L): 10 L, 50.0% L4, 50.0% L5; V3 (capacity 999L): 10 L, 35.0% L4, 65.0% L5; V4 (capacity 999L): 10 L, 40.0% L4, 60.0% L5; V5 (capacity 999L): 10 L, 20.0% L2, 65.0% L4, 15.0% L5; V6 (capacity 999L): empty; V7 (capacity 999L): empty",
+    "goal_state_str": "V6: 4.00 L, 9.9% L2, 37.41% L4, 52.69% L5; V7: 2 L, 39.25% L4, 60.75% L5",
+    "containers": {
+      "V1": {
+        "L5": 5.0,
+        "L2": 2.5,
+        "L4": 2.5
+      },
+      "V2": {
+        "L5": 5.0,
+        "L4": 5.0
+      },
+      "V3": {
+        "L5": 6.5,
+        "L4": 3.5
+      },
+      "V4": {
+        "L5": 6.0,
+        "L4": 4.0
+      },
+      "V5": {
+        "L4": 6.5,
+        "L2": 2.0,
+        "L5": 1.5
+      },
+      "V6": {},
+      "V7": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0,
+      "V5": 999.0,
+      "V6": 999.0,
+      "V7": 999.0
+    },
+    "goal_containers": {
+      "V6": {
+        "L2": 0.396,
+        "L4": 1.4964,
+        "L5": 2.1075999999999997
+      },
+      "V7": {
+        "L4": 0.785,
+        "L5": 1.215
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 5,
+    "n_sources": 5,
+    "n_targets": 2,
+    "id": 27
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 55.0% L1, 45.0% L2; V2 (capacity 999L): 10 L, 45.0% L4, 55.0% L5; V3 (capacity 999L): 10 L, 35.0% L2, 65.0% L3; V4 (capacity 999L): 10 L, 60.0% L1, 40.0% L4; V5 (capacity 999L): 10 L, 40.0% L3, 60.0% L6; V6 (capacity 999L): 10 L, 45.0% L1, 55.0% L4; V7 (capacity 999L): empty",
+    "goal_state_str": "V7: 5 L, 17.78% L1, 18.37% L2, 29.19% L3, 16.33% L4, 9.14% L5, 9.19% L6",
+    "containers": {
+      "V1": {
+        "L2": 4.5,
+        "L1": 5.5
+      },
+      "V2": {
+        "L4": 4.5,
+        "L5": 5.5
+      },
+      "V3": {
+        "L3": 6.5,
+        "L2": 3.5
+      },
+      "V4": {
+        "L4": 4.0,
+        "L1": 6.0
+      },
+      "V5": {
+        "L6": 6.0,
+        "L3": 4.0
+      },
+      "V6": {
+        "L4": 5.5,
+        "L1": 4.5
+      },
+      "V7": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0,
+      "V5": 999.0,
+      "V6": 999.0,
+      "V7": 999.0
+    },
+    "goal_containers": {
+      "V7": {
+        "L1": 0.889,
+        "L2": 0.9185,
+        "L3": 1.4595,
+        "L4": 0.8164999999999999,
+        "L5": 0.4570000000000001,
+        "L6": 0.45949999999999996
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 6,
+    "n_sources": 6,
+    "n_targets": 1,
+    "id": 28
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 25.0% L3, 55.0% L4, 20.0% L6; V2 (capacity 999L): 10 L, 50.0% L3, 50.0% L5; V3 (capacity 999L): 10 L, 60.0% L4, 40.0% L5; V4 (capacity 999L): 10 L, 60.0% L2, 40.0% L4; V5 (capacity 999L): 10 L, 40.0% L4, 60.0% L6; V6 (capacity 999L): 10 L, 15.0% L1, 30.0% L2, 55.0% L5; V7 (capacity 999L): empty",
+    "goal_state_str": "V7: 5 L, 1.72% L1, 9.52% L2, 17.13% L3, 28.57% L4, 29.89% L5, 13.17% L6",
+    "containers": {
+      "V1": {
+        "L4": 5.5,
+        "L3": 2.5,
+        "L6": 2.0
+      },
+      "V2": {
+        "L3": 5.0,
+        "L5": 5.0
+      },
+      "V3": {
+        "L5": 4.0,
+        "L4": 6.0
+      },
+      "V4": {
+        "L4": 4.0,
+        "L2": 6.0
+      },
+      "V5": {
+        "L4": 4.0,
+        "L6": 6.0
+      },
+      "V6": {
+        "L5": 5.5,
+        "L1": 1.5,
+        "L2": 3.0
+      },
+      "V7": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0,
+      "V5": 999.0,
+      "V6": 999.0,
+      "V7": 999.0
+    },
+    "goal_containers": {
+      "V7": {
+        "L1": 0.086,
+        "L2": 0.476,
+        "L3": 0.8564999999999999,
+        "L4": 1.4285,
+        "L5": 1.4945,
+        "L6": 0.6585000000000001
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 6,
+    "n_sources": 6,
+    "n_targets": 1,
+    "id": 29
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 45.0% L2, 55.0% L3; V2 (capacity 999L): 10 L, 35.0% L2, 65.0% L5; V3 (capacity 999L): 10 L, 50.0% L3, 50.0% L5; V4 (capacity 999L): 10 L, 40.0% L1, 35.0% L2, 25.0% L5; V5 (capacity 999L): 10 L, 55.0% L3, 45.0% L5; V6 (capacity 999L): 10 L, 50.0% L2, 50.0% L5; V7 (capacity 999L): empty; V8 (capacity 999L): empty",
+    "goal_state_str": "V7: 5 L, 8.53% L1, 39.13% L2, 52.34% L5; V8: 4 L, 32.69% L2, 25.22% L3, 42.09% L5",
+    "containers": {
+      "V1": {
+        "L2": 4.5,
+        "L3": 5.5
+      },
+      "V2": {
+        "L5": 6.5,
+        "L2": 3.5
+      },
+      "V3": {
+        "L3": 5.0,
+        "L5": 5.0
+      },
+      "V4": {
+        "L1": 4.0,
+        "L2": 3.5,
+        "L5": 2.5
+      },
+      "V5": {
+        "L5": 4.5,
+        "L3": 5.5
+      },
+      "V6": {
+        "L2": 5.0,
+        "L5": 5.0
+      },
+      "V7": {},
+      "V8": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0,
+      "V5": 999.0,
+      "V6": 999.0,
+      "V7": 999.0,
+      "V8": 999.0
+    },
+    "goal_containers": {
+      "V7": {
+        "L1": 0.42649999999999993,
+        "L2": 1.9565000000000001,
+        "L5": 2.6170000000000004
+      },
+      "V8": {
+        "L2": 1.3075999999999999,
+        "L3": 1.0088,
+        "L5": 1.6836000000000002
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 6,
+    "n_sources": 6,
+    "n_targets": 2,
+    "id": 30
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 55.0% L2, 45.0% L3; V2 (capacity 999L): 10 L, 55.0% L2, 30.0% L3, 15.0% L5; V3 (capacity 999L): 10 L, 60.0% L2, 40.0% L5; V4 (capacity 999L): 10 L, 55.0% L2, 45.0% L5; V5 (capacity 999L): 10 L, 50.0% L2, 30.0% L3, 20.0% L5; V6 (capacity 999L): 10 L, 45.0% L1, 55.0% L2; V7 (capacity 999L): empty; V8 (capacity 999L): empty",
+    "goal_state_str": "V7: 2 L, 12.42% L1, 55.87% L2, 31.71% L5; V8: 3 L, 54.5% L2, 22.71% L3, 22.79% L5",
+    "containers": {
+      "V1": {
+        "L3": 4.5,
+        "L2": 5.5
+      },
+      "V2": {
+        "L2": 5.5,
+        "L3": 3.0,
+        "L5": 1.5
+      },
+      "V3": {
+        "L5": 4.0,
+        "L2": 6.0
+      },
+      "V4": {
+        "L5": 4.5,
+        "L2": 5.5
+      },
+      "V5": {
+        "L2": 5.0,
+        "L3": 3.0,
+        "L5": 2.0
+      },
+      "V6": {
+        "L2": 5.5,
+        "L1": 4.5
+      },
+      "V7": {},
+      "V8": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0,
+      "V5": 999.0,
+      "V6": 999.0,
+      "V7": 999.0,
+      "V8": 999.0
+    },
+    "goal_containers": {
+      "V7": {
+        "L1": 0.2484,
+        "L2": 1.1174,
+        "L5": 0.6342
+      },
+      "V8": {
+        "L2": 1.6350000000000002,
+        "L3": 0.6813,
+        "L5": 0.6837
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 6,
+    "n_sources": 6,
+    "n_targets": 2,
+    "id": 31
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 50.0% L1, 50.0% L5; V2 (capacity 999L): 10 L, 55.0% L1, 45.0% L5; V3 (capacity 999L): 10 L, 50.0% L1, 50.0% L3; V4 (capacity 999L): 10 L, 45.0% L1, 55.0% L5; V5 (capacity 999L): 10 L, 35.0% L1, 65.0% L5; V6 (capacity 999L): 10 L, 45.0% L1, 55.0% L5; V7 (capacity 999L): empty; V8 (capacity 999L): empty; V9 (capacity 999L): empty",
+    "goal_state_str": "V7: 2 L, 45.19% L1, 54.81% L5; V8: 5 L, 50.0% L1, 50.0% L3; V9: 5 L, 44.21% L1, 55.79% L5",
+    "containers": {
+      "V1": {
+        "L1": 5.0,
+        "L5": 5.0
+      },
+      "V2": {
+        "L5": 4.5,
+        "L1": 5.5
+      },
+      "V3": {
+        "L3": 5.0,
+        "L1": 5.0
+      },
+      "V4": {
+        "L5": 5.5,
+        "L1": 4.5
+      },
+      "V5": {
+        "L5": 6.5,
+        "L1": 3.5
+      },
+      "V6": {
+        "L1": 4.5,
+        "L5": 5.5
+      },
+      "V7": {},
+      "V8": {},
+      "V9": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0,
+      "V5": 999.0,
+      "V6": 999.0,
+      "V7": 999.0,
+      "V8": 999.0,
+      "V9": 999.0
+    },
+    "goal_containers": {
+      "V7": {
+        "L1": 0.9037999999999999,
+        "L5": 1.0962
+      },
+      "V8": {
+        "L1": 2.5,
+        "L3": 2.5
+      },
+      "V9": {
+        "L1": 2.2105,
+        "L5": 2.7895
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 6,
+    "n_sources": 6,
+    "n_targets": 3,
+    "id": 32
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 45.0% L1, 55.0% L5; V2 (capacity 999L): 10 L, 40.0% L3, 60.0% L6; V3 (capacity 999L): 10 L, 70.0% L3, 30.0% L6; V4 (capacity 999L): 10 L, 50.0% L3, 50.0% L6; V5 (capacity 999L): 10 L, 55.0% L2, 45.0% L6; V6 (capacity 999L): 10 L, 50.0% L1, 50.0% L5; V7 (capacity 999L): empty; V8 (capacity 999L): empty; V9 (capacity 999L): empty",
+    "goal_state_str": "V7: 2 L, 55.0% L2, 45.0% L6; V8: 4 L, 47.67% L1, 52.33% L5; V9: 3 L, 51.81% L3, 48.19% L6",
+    "containers": {
+      "V1": {
+        "L5": 5.5,
+        "L1": 4.5
+      },
+      "V2": {
+        "L3": 4.0,
+        "L6": 6.0
+      },
+      "V3": {
+        "L3": 7.0,
+        "L6": 3.0
+      },
+      "V4": {
+        "L3": 5.0,
+        "L6": 5.0
+      },
+      "V5": {
+        "L6": 4.5,
+        "L2": 5.5
+      },
+      "V6": {
+        "L5": 5.0,
+        "L1": 5.0
+      },
+      "V7": {},
+      "V8": {},
+      "V9": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0,
+      "V5": 999.0,
+      "V6": 999.0,
+      "V7": 999.0,
+      "V8": 999.0,
+      "V9": 999.0
+    },
+    "goal_containers": {
+      "V7": {
+        "L2": 1.1,
+        "L6": 0.9
+      },
+      "V8": {
+        "L1": 1.9068,
+        "L5": 2.0932
+      },
+      "V9": {
+        "L3": 1.5543,
+        "L6": 1.4457
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 6,
+    "n_sources": 6,
+    "n_targets": 3,
+    "id": 33
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 65.0% L4, 35.0% L5; V2 (capacity 999L): 10 L, 25.0% L1, 15.0% L2, 60.0% L5; V3 (capacity 999L): 10 L, 35.0% L3, 65.0% L5; V4 (capacity 999L): 10 L, 55.0% L4, 45.0% L5; V5 (capacity 999L): 10 L, 55.0% L2, 20.0% L3, 25.0% L5; V6 (capacity 999L): empty; V7 (capacity 999L): empty; V8 (capacity 999L): empty; V9 (capacity 999L): empty",
+    "goal_state_str": "V6: 5 L, 25.0% L1, 15.0% L2, 60.0% L5; V7: 2 L, 25.0% L1, 15.0% L2, 60.0% L5; V8: 5 L, 58.87% L4, 41.13% L5; V9: 2 L, 57.07% L4, 42.93% L5",
+    "containers": {
+      "V1": {
+        "L4": 6.5,
+        "L5": 3.5
+      },
+      "V2": {
+        "L5": 6.0,
+        "L1": 2.5,
+        "L2": 1.5
+      },
+      "V3": {
+        "L5": 6.5,
+        "L3": 3.5
+      },
+      "V4": {
+        "L5": 4.5,
+        "L4": 5.5
+      },
+      "V5": {
+        "L2": 5.5,
+        "L3": 2.0,
+        "L5": 2.5
+      },
+      "V6": {},
+      "V7": {},
+      "V8": {},
+      "V9": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0,
+      "V5": 999.0,
+      "V6": 999.0,
+      "V7": 999.0,
+      "V8": 999.0,
+      "V9": 999.0
+    },
+    "goal_containers": {
+      "V6": {
+        "L1": 1.25,
+        "L2": 0.75,
+        "L5": 3.0
+      },
+      "V7": {
+        "L1": 0.5,
+        "L2": 0.3,
+        "L5": 1.2
+      },
+      "V8": {
+        "L4": 2.9435000000000002,
+        "L5": 2.0564999999999998
+      },
+      "V9": {
+        "L4": 1.1414,
+        "L5": 0.8586
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 5,
+    "n_sources": 5,
+    "n_targets": 4,
+    "id": 34,
+    "components_per_target": [
+      3,
+      3,
+      2,
+      2
+    ],
+    "source_config": [
+      2,
+      3,
+      2,
+      2,
+      3
+    ],
+    "source_volume": 10.0,
+    "bench_group": "5src-23223_4t3322"
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 10 L, 45.0% L2, 55.0% L3; V2 (capacity 999L): 10 L, 55.0% L2, 45.0% L5; V3 (capacity 999L): 10 L, 40.0% L2, 60.0% L6; V4 (capacity 999L): 10 L, 55.0% L1, 45.0% L3; V5 (capacity 999L): 10 L, 50.0% L2, 50.0% L4; V6 (capacity 999L): 10 L, 60.0% L2, 40.0% L6; V7 (capacity 999L): empty; V8 (capacity 999L): empty; V9 (capacity 999L): empty; V10 (capacity 999L): empty",
+    "goal_state_str": "V7: 5 L, 53.92% L2, 46.08% L6; V8: 3 L, 50.0% L2, 50.0% L4; V9: 2 L, 45.0% L2, 55.0% L3; V10: 3 L, 55.0% L2, 45.0% L5",
+    "containers": {
+      "V1": {
+        "L2": 4.5,
+        "L3": 5.5
+      },
+      "V2": {
+        "L2": 5.5,
+        "L5": 4.5
+      },
+      "V3": {
+        "L2": 4.0,
+        "L6": 6.0
+      },
+      "V4": {
+        "L3": 4.5,
+        "L1": 5.5
+      },
+      "V5": {
+        "L2": 5.0,
+        "L4": 5.0
+      },
+      "V6": {
+        "L2": 6.0,
+        "L6": 4.0
+      },
+      "V7": {},
+      "V8": {},
+      "V9": {},
+      "V10": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0,
+      "V5": 999.0,
+      "V6": 999.0,
+      "V7": 999.0,
+      "V8": 999.0,
+      "V9": 999.0,
+      "V10": 999.0
+    },
+    "goal_containers": {
+      "V7": {
+        "L2": 2.696,
+        "L6": 2.304
+      },
+      "V8": {
+        "L2": 1.5,
+        "L4": 1.5
+      },
+      "V9": {
+        "L2": 0.9,
+        "L3": 1.1
+      },
+      "V10": {
+        "L2": 1.6500000000000001,
+        "L5": 1.35
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 6,
+    "n_sources": 6,
+    "n_targets": 4,
+    "id": 35,
+    "components_per_target": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "source_config": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "source_volume": 10.0,
+    "bench_group": "6src-222222_4t2222"
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 50 L, 45.0% L1, 55.0% L3; V2 (capacity 999L): 50 L, 40.0% L2, 60.0% L4; V3 (capacity 999L): 50 L, 30.0% L1, 70.0% L3; V4 (capacity 999L): 50 L, 70.0% L3, 30.0% L4; V5 (capacity 999L): empty; V6 (capacity 999L): empty; V7 (capacity 999L): empty; V8 (capacity 999L): empty; V9 (capacity 999L): empty",
+    "goal_state_str": "V5: 4 L, 8.48% L2, 55.16% L3, 36.36% L4; V6: 2 L, 40.11% L1, 59.89% L3; V7: 2 L, 40.0% L2, 60.0% L4; V8: 5 L, 70.0% L3, 30.0% L4; V9: 4 L, 70.0% L3, 30.0% L4",
+    "containers": {
+      "V1": {
+        "L3": 27.5,
+        "L1": 22.5
+      },
+      "V2": {
+        "L4": 30.0,
+        "L2": 20.0
+      },
+      "V3": {
+        "L3": 35.0,
+        "L1": 15.0
+      },
+      "V4": {
+        "L3": 35.0,
+        "L4": 15.0
+      },
+      "V5": {},
+      "V6": {},
+      "V7": {},
+      "V8": {},
+      "V9": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0,
+      "V5": 999.0,
+      "V6": 999.0,
+      "V7": 999.0,
+      "V8": 999.0,
+      "V9": 999.0
+    },
+    "goal_containers": {
+      "V5": {
+        "L2": 0.3392,
+        "L3": 2.2064,
+        "L4": 1.4544
+      },
+      "V6": {
+        "L1": 0.8022,
+        "L3": 1.1978
+      },
+      "V7": {
+        "L2": 0.8,
+        "L4": 1.2
+      },
+      "V8": {
+        "L3": 3.5,
+        "L4": 1.5
+      },
+      "V9": {
+        "L3": 2.8,
+        "L4": 1.2
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 4,
+    "n_sources": 4,
+    "n_targets": 5,
+    "id": 36,
+    "components_per_target": [
+      3,
+      2,
+      2,
+      2,
+      2
+    ],
+    "source_config": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "source_volume": 50.0,
+    "bench_group": "4src-2222_5t32222"
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 50 L, 45.0% L3, 55.0% L4; V2 (capacity 999L): 50 L, 45.0% L3, 55.0% L4; V3 (capacity 999L): 50 L, 35.0% L2, 65.0% L5; V4 (capacity 999L): 50 L, 70.0% L1, 30.0% L4; V5 (capacity 999L): 50 L, 70.0% L1, 30.0% L3; V6 (capacity 999L): empty; V7 (capacity 999L): empty; V8 (capacity 999L): empty; V9 (capacity 999L): empty; V10 (capacity 999L): empty",
+    "goal_state_str": "V6: 2 L, 25.66% L1, 30.31% L3, 44.03% L4; V7: 5 L, 35.25% L1, 27.06% L3, 37.69% L4; V8: 4 L, 56.98% L1, 24.43% L3, 18.59% L4; V9: 5 L, 35.0% L2, 65.0% L5; V10: 3.00 L, 70.0% L1, 30.0% L4",
+    "containers": {
+      "V1": {
+        "L3": 22.5,
+        "L4": 27.5
+      },
+      "V2": {
+        "L3": 22.5,
+        "L4": 27.5
+      },
+      "V3": {
+        "L5": 32.5,
+        "L2": 17.5
+      },
+      "V4": {
+        "L1": 35.0,
+        "L4": 15.0
+      },
+      "V5": {
+        "L1": 35.0,
+        "L3": 15.0
+      },
+      "V6": {},
+      "V7": {},
+      "V8": {},
+      "V9": {},
+      "V10": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0,
+      "V5": 999.0,
+      "V6": 999.0,
+      "V7": 999.0,
+      "V8": 999.0,
+      "V9": 999.0,
+      "V10": 999.0
+    },
+    "goal_containers": {
+      "V6": {
+        "L1": 0.5132,
+        "L3": 0.6062,
+        "L4": 0.8806
+      },
+      "V7": {
+        "L1": 1.7625,
+        "L3": 1.353,
+        "L4": 1.8844999999999998
+      },
+      "V8": {
+        "L1": 2.2792,
+        "L3": 0.9772,
+        "L4": 0.7436
+      },
+      "V9": {
+        "L2": 1.75,
+        "L5": 3.25
+      },
+      "V10": {
+        "L1": 2.0999999999999996,
+        "L4": 0.8999999999999999
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 5,
+    "n_sources": 5,
+    "n_targets": 5,
+    "id": 37,
+    "components_per_target": [
+      3,
+      3,
+      3,
+      2,
+      2
+    ],
+    "source_config": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "source_volume": 50.0,
+    "bench_group": "5src-22222_5t33322"
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 50 L, 55.0% L1, 45.0% L2; V2 (capacity 999L): 50 L, 70.0% L1, 30.0% L5; V3 (capacity 999L): 50 L, 40.0% L3, 60.0% L4; V4 (capacity 999L): 50 L, 50.0% L1, 50.0% L2; V5 (capacity 999L): 50 L, 50.0% L1, 50.0% L5; V6 (capacity 999L): empty; V7 (capacity 999L): empty; V8 (capacity 999L): empty; V9 (capacity 999L): empty; V10 (capacity 999L): empty",
+    "goal_state_str": "V6: 3 L, 57.01% L1, 16.73% L2, 26.26% L5; V7: 3 L, 57.87% L1, 24.44% L2, 17.69% L5; V8: 4.00 L, 57.87% L1, 28.7% L2, 13.43% L5; V9: 2 L, 57.6% L1, 22.21% L2, 20.19% L5; V10: 5 L, 59.5% L1, 18.74% L2, 21.76% L5",
+    "containers": {
+      "V1": {
+        "L2": 22.5,
+        "L1": 27.5
+      },
+      "V2": {
+        "L1": 35.0,
+        "L5": 15.0
+      },
+      "V3": {
+        "L3": 20.0,
+        "L4": 30.0
+      },
+      "V4": {
+        "L2": 25.0,
+        "L1": 25.0
+      },
+      "V5": {
+        "L1": 25.0,
+        "L5": 25.0
+      },
+      "V6": {},
+      "V7": {},
+      "V8": {},
+      "V9": {},
+      "V10": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0,
+      "V5": 999.0,
+      "V6": 999.0,
+      "V7": 999.0,
+      "V8": 999.0,
+      "V9": 999.0,
+      "V10": 999.0
+    },
+    "goal_containers": {
+      "V6": {
+        "L1": 1.7102999999999997,
+        "L2": 0.5019,
+        "L5": 0.7878000000000001
+      },
+      "V7": {
+        "L1": 1.7361,
+        "L2": 0.7332000000000001,
+        "L5": 0.5307
+      },
+      "V8": {
+        "L1": 2.3148,
+        "L2": 1.148,
+        "L5": 0.5372
+      },
+      "V9": {
+        "L1": 1.1520000000000001,
+        "L2": 0.44420000000000004,
+        "L5": 0.40380000000000005
+      },
+      "V10": {
+        "L1": 2.9749999999999996,
+        "L2": 0.9369999999999999,
+        "L5": 1.088
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 5,
+    "n_sources": 5,
+    "n_targets": 5,
+    "id": 38,
+    "components_per_target": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "source_config": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "source_volume": 50.0,
+    "bench_group": "5src-22222_5t33333"
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 50 L, 50.0% L2, 35.0% L3, 15.0% L5; V2 (capacity 999L): 50 L, 40.0% L3, 60.0% L4; V3 (capacity 999L): 50 L, 60.0% L1, 40.0% L3; V4 (capacity 999L): 50 L, 65.0% L2, 35.0% L6; V5 (capacity 999L): 50 L, 55.0% L1, 45.0% L3; V6 (capacity 999L): 50 L, 40.0% L1, 20.0% L3, 40.0% L4; V7 (capacity 999L): empty; V8 (capacity 999L): empty; V9 (capacity 999L): empty; V10 (capacity 999L): empty; V11 (capacity 999L): empty",
+    "goal_state_str": "V7: 4 L, 43.5% L1, 36.56% L3, 19.94% L4; V8: 4 L, 45.45% L1, 38.48% L3, 16.07% L4; V9: 5 L, 50.0% L2, 35.0% L3, 15.0% L5; V10: 3 L, 45.47% L1, 32.94% L3, 21.59% L4; V11: 4 L, 57.62% L1, 42.38% L3",
+    "containers": {
+      "V1": {
+        "L2": 25.0,
+        "L3": 17.5,
+        "L5": 7.5
+      },
+      "V2": {
+        "L4": 30.0,
+        "L3": 20.0
+      },
+      "V3": {
+        "L3": 20.0,
+        "L1": 30.0
+      },
+      "V4": {
+        "L2": 32.5,
+        "L6": 17.5
+      },
+      "V5": {
+        "L1": 27.5,
+        "L3": 22.5
+      },
+      "V6": {
+        "L4": 20.0,
+        "L1": 20.0,
+        "L3": 10.0
+      },
+      "V7": {},
+      "V8": {},
+      "V9": {},
+      "V10": {},
+      "V11": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0,
+      "V5": 999.0,
+      "V6": 999.0,
+      "V7": 999.0,
+      "V8": 999.0,
+      "V9": 999.0,
+      "V10": 999.0,
+      "V11": 999.0
+    },
+    "goal_containers": {
+      "V7": {
+        "L1": 1.74,
+        "L3": 1.4624000000000001,
+        "L4": 0.7976000000000001
+      },
+      "V8": {
+        "L1": 1.818,
+        "L3": 1.5392,
+        "L4": 0.6428
+      },
+      "V9": {
+        "L2": 2.5,
+        "L3": 1.75,
+        "L5": 0.75
+      },
+      "V10": {
+        "L1": 1.3641,
+        "L3": 0.9882,
+        "L4": 0.6477
+      },
+      "V11": {
+        "L1": 2.3047999999999997,
+        "L3": 1.6952
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 6,
+    "n_sources": 6,
+    "n_targets": 5,
+    "id": 39,
+    "components_per_target": [
+      3,
+      3,
+      3,
+      3,
+      2
+    ],
+    "source_config": [
+      3,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "source_volume": 50.0,
+    "bench_group": "6src-322223_5t33332"
+  },
+  {
+    "initial_state_str": "V1 (capacity 999L): 100 L, 35.0% L3, 65.0% L4; V2 (capacity 999L): 100 L, 60.0% L1, 40.0% L2; V3 (capacity 999L): 100 L, 60.0% L3, 40.0% L5; V4 (capacity 999L): 100 L, 50.0% L3, 50.0% L4; V5 (capacity 999L): 100 L, 70.0% L4, 30.0% L5; V6 (capacity 999L): empty; V7 (capacity 999L): empty; V8 (capacity 999L): empty; V9 (capacity 999L): empty; V10 (capacity 999L): empty; V11 (capacity 999L): empty; V12 (capacity 999L): empty; V13 (capacity 999L): empty; V14 (capacity 999L): empty; V15 (capacity 999L): empty",
+    "goal_state_str": "V6: 3 L, 35.79% L3, 43.69% L4, 20.52% L5; V7: 3 L, 42.81% L3, 40.23% L4, 16.96% L5; V8: 3 L, 37.27% L3, 43.42% L4, 19.31% L5; V9: 4 L, 36.8% L3, 42.62% L4, 20.58% L5; V10: 4 L, 23.0% L3, 61.26% L4, 15.74% L5; V11: 2 L, 43.16% L3, 56.84% L4; V12: 5 L, 60.0% L3, 40.0% L5; V13: 4 L, 60.0% L3, 40.0% L5; V14: 2 L, 60.0% L3, 40.0% L5; V15: 4 L, 60.0% L3, 40.0% L5",
+    "containers": {
+      "V1": {
+        "L4": 65.0,
+        "L3": 35.0
+      },
+      "V2": {
+        "L1": 60.0,
+        "L2": 40.0
+      },
+      "V3": {
+        "L3": 60.0,
+        "L5": 40.0
+      },
+      "V4": {
+        "L4": 50.0,
+        "L3": 50.0
+      },
+      "V5": {
+        "L4": 70.0,
+        "L5": 30.0
+      },
+      "V6": {},
+      "V7": {},
+      "V8": {},
+      "V9": {},
+      "V10": {},
+      "V11": {},
+      "V12": {},
+      "V13": {},
+      "V14": {},
+      "V15": {}
+    },
+    "capacities": {
+      "V1": 999.0,
+      "V2": 999.0,
+      "V3": 999.0,
+      "V4": 999.0,
+      "V5": 999.0,
+      "V6": 999.0,
+      "V7": 999.0,
+      "V8": 999.0,
+      "V9": 999.0,
+      "V10": 999.0,
+      "V11": 999.0,
+      "V12": 999.0,
+      "V13": 999.0,
+      "V14": 999.0,
+      "V15": 999.0
+    },
+    "goal_containers": {
+      "V6": {
+        "L3": 1.0737,
+        "L4": 1.3106999999999998,
+        "L5": 0.6155999999999999
+      },
+      "V7": {
+        "L3": 1.2843,
+        "L4": 1.2069,
+        "L5": 0.5088
+      },
+      "V8": {
+        "L3": 1.1181,
+        "L4": 1.3026,
+        "L5": 0.5792999999999999
+      },
+      "V9": {
+        "L3": 1.472,
+        "L4": 1.7047999999999999,
+        "L5": 0.8231999999999999
+      },
+      "V10": {
+        "L3": 0.92,
+        "L4": 2.4504,
+        "L5": 0.6296
+      },
+      "V11": {
+        "L3": 0.8632,
+        "L4": 1.1368
+      },
+      "V12": {
+        "L3": 3.0,
+        "L5": 2.0
+      },
+      "V13": {
+        "L3": 2.4,
+        "L5": 1.6
+      },
+      "V14": {
+        "L3": 1.2,
+        "L5": 0.8
+      },
+      "V15": {
+        "L3": 2.4,
+        "L5": 1.6
+      }
+    },
+    "difficulty": "level4",
+    "n_liquids": 5,
+    "n_sources": 5,
+    "n_targets": 10,
+    "id": 40,
+    "components_per_target": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "source_config": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "source_volume": 100.0,
+    "bench_group": "5src-22222_10t3x5_2x5"
+  }
+]
