@@ -1,6 +1,6 @@
-# Medaka
+# Means ends analysis helps LLM planning in continuous state domain
 
-An LLM-based planning approach for LiquidWorld problems, from the paper *MEDAKA: Means-Ends Decomposition for Continuous-State LLM Planning*.
+Analysis what instruction helps LLM-based planning for LiquidWorld problems, from the paper *Means ends analysis helps LLM planning in continuous state domain*.
 
 ## Project Structure
 
