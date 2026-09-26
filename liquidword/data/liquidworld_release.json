@@ -762,7 +762,8 @@
   "n_sources": 3,
   "n_targets": 5,
   "tags": [
-   "linear"
+   "linear",
+   "multi-goal"
   ]
  },
  {
@@ -822,7 +823,8 @@
   "n_sources": 3,
   "n_targets": 5,
   "tags": [
-   "linear"
+   "linear",
+   "multi-goal"
   ]
  },
  {
@@ -980,7 +982,8 @@
   "n_sources": 4,
   "n_targets": 5,
   "tags": [
-   "linear"
+   "linear",
+   "multi-goal"
   ]
  },
  {
@@ -1046,7 +1049,8 @@
   "n_sources": 4,
   "n_targets": 5,
   "tags": [
-   "linear"
+   "linear",
+   "multi-goal"
   ]
  },
  {
@@ -1217,7 +1221,8 @@
   "n_sources": 5,
   "n_targets": 5,
   "tags": [
-   "linear"
+   "linear",
+   "multi-goal"
   ]
  },
  {
@@ -1288,7 +1293,8 @@
   "n_sources": 5,
   "n_targets": 5,
   "tags": [
-   "linear"
+   "linear",
+   "multi-goal"
   ]
  },
  {
@@ -1406,7 +1412,8 @@
   "n_sources": 3,
   "n_targets": 5,
   "tags": [
-   "linear"
+   "linear",
+   "multi-goal"
   ]
  },
  {
@@ -1472,7 +1479,8 @@
   "n_sources": 3,
   "n_targets": 5,
   "tags": [
-   "linear"
+   "linear",
+   "multi-goal"
   ]
  },
  {
@@ -1696,7 +1704,8 @@
   "n_sources": 3,
   "n_targets": 5,
   "tags": [
-   "linear"
+   "linear",
+   "multi-goal"
   ]
  },
  {
@@ -1758,7 +1767,8 @@
   "n_sources": 3,
   "n_targets": 5,
   "tags": [
-   "linear"
+   "linear",
+   "multi-goal"
   ]
  },
  {
@@ -2155,7 +2165,8 @@
   "n_targets": 5,
   "tags": [
    "linear",
-   "coupling"
+   "coupling",
+   "multi-goal"
   ]
  },
  {
@@ -2226,7 +2237,8 @@
   "n_targets": 5,
   "tags": [
    "linear",
-   "coupling"
+   "coupling",
+   "multi-goal"
   ]
  },
  {
@@ -2713,7 +2725,8 @@
   "n_targets": 5,
   "tags": [
    "linear",
-   "coupling"
+   "coupling",
+   "multi-goal"
   ]
  },
  {
@@ -2790,7 +2803,8 @@
   "n_targets": 5,
   "tags": [
    "linear",
-   "coupling"
+   "coupling",
+   "multi-goal"
   ]
  },
  {
@@ -3826,7 +3840,8 @@
   "n_targets": 5,
   "tags": [
    "linear",
-   "coupling"
+   "coupling",
+   "multi-goal"
   ]
  },
  {
@@ -6842,7 +6857,8 @@
   "n_targets": 5,
   "tags": [
    "linear",
-   "coupling"
+   "coupling",
+   "multi-goal"
   ]
  },
  {
@@ -6918,7 +6934,8 @@
   "n_targets": 5,
   "tags": [
    "linear",
-   "coupling"
+   "coupling",
+   "multi-goal"
   ]
  },
  {
@@ -6996,7 +7013,8 @@
   "n_targets": 5,
   "tags": [
    "linear",
-   "coupling"
+   "coupling",
+   "multi-goal"
   ]
  },
  {
@@ -7080,7 +7098,8 @@
   "n_targets": 5,
   "tags": [
    "linear",
-   "coupling"
+   "coupling",
+   "multi-goal"
   ]
  },
  {
@@ -27079,7 +27098,8 @@
   "n_targets": 5,
   "tags": [
    "linear",
-   "coupling"
+   "coupling",
+   "multi-goal"
   ]
  },
  {
@@ -27455,7 +27475,8 @@
   "n_targets": 5,
   "tags": [
    "linear",
-   "coupling"
+   "coupling",
+   "multi-goal"
   ]
  },
  {
